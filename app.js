@@ -16,6 +16,6 @@ const routes = require('./api/routes');
 app.use('/api', routes);
 app.use('/public', express.static('public'));
 
-app.listen(80, () => {
+app.listen(3100, () => {
     console.log('Servidor en ejecución en el puerto 3100');
 });
